@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Jane",
+        "longitude": -117.1507,
+        "latitude": 32.843,
+        "date": {
+            "$date": 1338854400
+        },
+        "description": "Electrician"
+    },
+    {   
+        "name": "John",
+        "longitude": -117.1713,
+        "latitude": 32.9486,
+        "date": {
+            "$date": 1339372800
+        },
+        "description": "Plumber"
+    }
+]
+

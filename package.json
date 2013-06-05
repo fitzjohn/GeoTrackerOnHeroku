@@ -1,0 +1,12 @@
+{
+  "name": "GeoTrackerOnHeroku",
+  "version": "0.1.0-alpha.1",
+  "dependencies": {
+    "mongoose": "3.6.x",
+    "express": "3.1.x"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+}
