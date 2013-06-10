@@ -5,10 +5,7 @@ var mongoose = require('mongoose');
 var app = express();
 
 // connect to MongDB
-var uristring = 
-process.env.MONGOLAB_URI || 
-process.env.MONGOHQ_URL || 
-'mongodb://localhost/HelloMongoose';
+var uristring = process.env.MONGOLAB_URI;
 
 mongoose.connect(uristring, function (err, res) {
   if (err) { 
